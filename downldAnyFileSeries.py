@@ -33,4 +33,5 @@ for i in range(0,16):
         skipped.append(pre)
         print 'could not find the file'
         pass
-print "Skipped:"+skipped
+print "Skipped: ",
+print skipped
